@@ -5,6 +5,7 @@ const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 
 // Load environment variables from .env file
+//add
 dotenv.config();
 
 const stripe = require('stripe')(process.env.PAYMENT_GATEWAY_KEY);
