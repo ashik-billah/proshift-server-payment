@@ -49,6 +49,7 @@ async function run() {
         });
 
         // parcels api
+        //add
         // GET: All parcels OR parcels by user (created_by), sorted by latest
         app.get('/parcels', async (req, res) => {
             try {
