@@ -36,6 +36,7 @@ const client = new MongoClient(uri, {
 async function run() {
     try {
         // Connect the client to the server	(optional starting in v4.7)
+        //add
         await client.connect();
 
         const db = client.db('parcelDB'); // database name
