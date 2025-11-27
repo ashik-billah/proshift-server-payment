@@ -69,6 +69,7 @@ async function run() {
         });
 
         // GET: Get a specific parcel by ID
+        //add
         app.get('/parcels/:id', async (req, res) => {
             try {
                 const id = req.params.id;
