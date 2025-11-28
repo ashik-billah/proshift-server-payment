@@ -170,6 +170,7 @@ async function run() {
                 }
 
                 // 2. Insert payment record
+                //add
                 const paymentDoc = {
                     parcelId,
                     email,
