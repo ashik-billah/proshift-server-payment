@@ -149,6 +149,7 @@ async function run() {
         });
 
         // POST: Record payment and update parcel status
+        //add
         app.post('/payments', async (req, res) => {
             try {
                 const { parcelId, email, amount, paymentMethod, transactionId } = req.body;
